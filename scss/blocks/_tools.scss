@@ -1,0 +1,18 @@
+.tools{
+
+    &__wrp{
+        width: 103px;
+        height: 103px;
+        background-image: url(../img/bkg-circle.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__img{
+        margin: 21px;
+    }
+}

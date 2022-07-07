@@ -109,6 +109,7 @@ body {
 
 .button:hover, .button:focus {
   background: linear-gradient(98.8deg, #97BC5D 0.78%, #C0D997 98.41%);
+  color: #FFFFFF;
 }
 
 .header__wrp {
@@ -190,4 +191,19 @@ body {
   line-height: 22px;
   font-weight: 800;
   font-style: normal;
+}
+
+.tools__wrp {
+  width: 103px;
+  height: 103px;
+  background-image: url(../img/bkg-circle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tools__img {
+  margin: 21px;
 }/*# sourceMappingURL=style.css.map */
