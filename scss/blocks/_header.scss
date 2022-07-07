@@ -1,0 +1,39 @@
+.header {
+    &__wrp {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 79px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+
+        @include font(17px, 23px, 500);
+    }
+
+    &__item {
+        margin: 0 15px;
+    }
+
+    &__link {
+        padding: 0 10px;
+        box-sizing: border-box;
+        border-bottom: 2px solid $transparent;
+
+        &:hover,
+        &:focus {
+            border-bottom: 2px solid $green;
+        }
+    }
+
+    &__button {
+        background-color: $transparent;
+        padding: 14px 35px;
+        border: 1px solid $green;
+        border-radius: 10px;
+
+        @include font(16px, 22px, 500);
+    }
+}

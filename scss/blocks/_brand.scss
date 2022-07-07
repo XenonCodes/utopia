@@ -1,0 +1,42 @@
+.brand {
+    background-image: url('../img/bkg-laptop.png');
+    background-position: right;
+    // height: 722px;
+    background-repeat: no-repeat;
+    // background-size: contain;
+    background-position-y: -70px;
+    padding: 136px 0 124px;
+    box-sizing: border-box;
+
+    &__question{
+        max-width: 760px;
+        color: $green;
+
+        @include font(25px, 35px, 600, italic);
+    }
+
+    &__title{
+        max-width: 684px;
+        margin: 15px 0 25px;
+
+        @include font(55px, 72px, 500);
+    }
+
+    &__text{
+        max-width: 574px;
+
+        @include font()
+    }
+
+    &__link{
+        display: inline-block;
+        margin: 35px 0 0;
+        background: $bkg-green-grad;
+        color: $white;
+        text-decoration: none;
+        padding: 14px 73px;
+        border-radius: 10px;
+
+        @include font(16px, 22px, 800);
+    }
+}
